@@ -1,8 +1,9 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Service = (props) => {
-    const { name, img } = props.mainservice;
+    const { name, img, id } = props.mainservice;
     return (
         <Col>
             <Card className="card">
@@ -21,7 +22,7 @@ const Service = (props) => {
                         <h6><span className="fw-bold"><i className="fas fa-chalkboard-teacher text-danger"></i> Teacher : </span><span className="text-success">{mentor}</span></h6> */}
                         </div>
                     </Card.Text>
-                    <Button className="btn-back">Enroll Now</Button>
+                    <Link to={`/details/${id}`}><button className="btn btn-primary">Details</button></Link>
                 </Card.Body>
             </Card>
         </Col >

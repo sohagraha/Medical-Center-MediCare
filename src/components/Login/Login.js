@@ -5,7 +5,7 @@ import useAuth from '../../hooks/useAuth';
 import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
-    const { user, signInUsingGoogle, logOut } = useFirebase();
+    const { user, signInUsingGoogle, logOut } = useAuth();
     return (
         <>
             {user?.email ?

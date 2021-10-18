@@ -1,10 +1,11 @@
 import React from 'react';
 import { FormControl, InputGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import useFirebase from '../../hooks/useFirebase';
 
 const Register = () => {
-    const { user, signInUsingGoogle, logOut } = useFirebase();
+    const { user, signInUsingGoogle, logOut } = useAuth();
     return (
         <>
             {user?.email ?

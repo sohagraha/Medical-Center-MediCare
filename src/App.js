@@ -7,26 +7,33 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home'
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
+import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import AuthProvider from './contexts/AuthProvider';
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Navbar></Navbar>
-        <Switch>
-          <Route exact path='/home'>
-            <Home></Home>
-          </Route>
-          <Route exact path='/login'>
-            <Login></Login>
-          </Route>
-          <Route exact path='/register'>
-            <Register></Register>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Navbar></Navbar>
+          <Switch>
+            <Route exact path='/home'>
+              <Home></Home>
+            </Route>
+            <Route exact path='/login'>
+              <Login></Login>
+            </Route>
+            <Route exact path='/register'>
+              <Register></Register>
+            </Route>
+            <Route path='/details/:serviceId'>
+              <ServiceDetails></ServiceDetails>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

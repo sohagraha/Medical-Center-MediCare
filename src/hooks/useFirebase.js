@@ -1,5 +1,5 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
-import { useState, useEffect } from 'react';
+import { getAuth, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, GoogleAuthProvider } from "firebase/auth";
+import { useEffect, useState } from "react";
 import initializeAuthentication from "../components/Login/Firebase/firebase.init";
 
 initializeAuthentication();
@@ -7,7 +7,6 @@ initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
-
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
@@ -21,18 +20,36 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false));
     }
 
-    // observe user state change
+
+
+    const signInWithPassword = (email, password) => {
+        createUserWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+            })
+            .finally(() => setIsLoading(false));
+    }
+
+    const logInWithPassword = (email, password) => {
+        signInWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+            })
+    }
+
     useEffect(() => {
-        const unsubscribed = onAuthStateChanged(auth, user => {
+        const unsubscribe = onAuthStateChanged(auth, user => {
             if (user) {
                 setUser(user);
             }
             else {
-                setUser({})
+                setUser({});
             }
             setIsLoading(false);
         });
-        return () => unsubscribed;
+        return () => unsubscribe;
     }, [])
 
     const logOut = () => {
@@ -40,13 +57,17 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => { })
             .finally(() => setIsLoading(false));
-    }
+    };
+
 
     return {
         user,
         isLoading,
         signInUsingGoogle,
-        logOut
+        logOut,
+        signInWithPassword,
+        logInWithPassword
+
     }
 }
 

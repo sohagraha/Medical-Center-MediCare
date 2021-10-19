@@ -23,7 +23,7 @@ const Specialist = () => {
                             {/* Team Members Container  */}
                             <div className="row">
                                 <div className="col-md-4 text-center">
-                                    <img className="qualities-img  p-2 rounded-circle" src="https://as2.ftcdn.net/v2/jpg/03/20/74/45/500_F_320744517_TaGkT7aRlqqWdfGUuzRKDABtFEoN5CiO.jpg" alt="" />
+                                    <img className="qualities-img  p-2 rounded-circle" src="https://as2.ftcdn.net/v2/jpg/01/72/38/25/500_F_172382536_GLOspuArqWqoq66wVRo2MMzYIocUvnY2.jpg" alt="" />
                                     <h5>
                                         Cardiologists
                                     </h5>
@@ -33,12 +33,13 @@ const Specialist = () => {
 
                                 </div>
                                 <div className="col-md-4 text-center">
-                                    <img className="qualities-img  p-2 rounded-circle" src="https://as2.ftcdn.net/v2/jpg/01/72/38/25/500_F_172382536_GLOspuArqWqoq66wVRo2MMzYIocUvnY2.jpg" alt="" />
+                                    <img className="qualities-img  p-2 rounded-circle" src="https://as2.ftcdn.net/v2/jpg/03/20/74/45/500_F_320744517_TaGkT7aRlqqWdfGUuzRKDABtFEoN5CiO.jpg" alt="" />
+
                                     <h5>
                                         Gastroenterologists
                                     </h5>
                                     <p>
-                                        <i>- Khalid Bin Sattar</i>
+                                        <i>- Marilyn Quizas</i>
                                     </p>
 
                                 </div>

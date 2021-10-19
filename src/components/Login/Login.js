@@ -10,8 +10,6 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [errormsg, setErrormsg] = useState("");
     const [isNotLogin, setIsNotlogin] = useState(false);
-    // const location = useLocation();
-    // const history = useHistory();
     const toggleLogin = e => {
         setIsNotlogin(e.target.checked);
     }

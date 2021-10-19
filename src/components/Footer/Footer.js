@@ -20,7 +20,7 @@ const Footer = () => {
                                     />
                                 </InputGroup>
                                 <div>
-                                    <button className="btn btn-danger">subscribe</button>
+                                    <button className="btn btn-danger">subscribe </button>
                                 </div>
                             </div>
                         </div>

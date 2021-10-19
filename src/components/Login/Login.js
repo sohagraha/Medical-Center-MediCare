@@ -73,7 +73,7 @@ const Login = () => {
 
                             <Form.Group onChange={toggleLogin} as={Row} className="mb-3 mx-auto" controlId="formHorizontalCheck">
                                 <Col sm={{ span: 2, offset: 2 }}>
-                                    <Form.Check label="New?" />
+                                    <Form.Check label="New_User" />
                                 </Col>
                             </Form.Group>
 
@@ -86,9 +86,8 @@ const Login = () => {
                         </Form>
 
                     </div>
-                    <hr className="w-50 mx-auto" />
-                    <hr className="w-50 mx-auto" />
-                    <button className="btn btn-primary m-3" onClick={signInUsingGoogle}>Sign In with google</button>
+                    <h6>-----OR-----</h6>
+                    <button className="btn btn-danger m-3" onClick={signInUsingGoogle}>Sign In with google <i className="fab fa-google"></i></button>
                 </div>
             }
 

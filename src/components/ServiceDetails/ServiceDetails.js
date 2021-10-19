@@ -25,7 +25,7 @@ const ServiceDetails = () => {
                             {/* <p className="card-text"><b>Specialty</b> : {servicee[0]?.specialty}</p>
                             <p className="card-text"><b>Qualification</b> : <i> {servicee[0]?.Qualification}</i></p> */}
                             <p className="card-text text-start"> {servicee[0]?.description}</p>
-                            <Link to="/home"><button className="btn btn-primary"><i class="fas fa-chevron-circle-left"></i> Back</button></Link>
+                            <Link to="/home"><button className="btn btn-primary"><i className="fas fa-chevron-circle-left"></i> Back</button></Link>
                         </div>
                     </div>
                 </div>

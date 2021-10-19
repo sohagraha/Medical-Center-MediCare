@@ -23,7 +23,7 @@ const Navbar = () => {
                             <span className="d-flex justify-content-start">
                                 {user?.email ?
                                     <>
-                                        <Link className="nav-link" to="home"><i class="fas fa-user"></i><span> </span>{user?.displayName}<span className="text-danger ms-2 p-2 bg" onClick={logOut}> <i class="fas fa-sign-out-alt"></i> Log Out</span></Link>
+                                        <Link className="nav-link" to="home"><i className="fas fa-user"></i><span> </span>{user?.displayName}<span className="text-danger ms-2 p-2 bg" onClick={logOut}> <i className="fas fa-sign-out-alt"></i> Log Out</span></Link>
                                     </> :
                                     <Link className="nav-link text-primary mx-auto bg" to="login">Login</Link>
                                 }

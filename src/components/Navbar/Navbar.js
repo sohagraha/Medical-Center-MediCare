@@ -7,6 +7,7 @@ import './Navbar.css'
 const Navbar = () => {
     const { user, logOut } = useFirebase();
     return (
+        // Navbar 
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top fs-6 fw-normal" >
                 <div className="container-fluid container">
@@ -16,6 +17,7 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
+                            {/* Nav Links  */}
                             <Link as={HashLink} to="/home" className="nav-link bg active">Home</Link>
                             <Link as={HashLink} className="nav-link text-white bg" to="/services">Services</Link>
                             <Link as={HashLink} className="nav-link bg text-white" to="/specialist">Our Specialist</Link>
@@ -28,7 +30,6 @@ const Navbar = () => {
                                     <Link className="nav-link text-primary mx-auto bg" to="login">Login</Link>
                                 }
                             </span>
-
                         </div>
                     </div>
                 </div>

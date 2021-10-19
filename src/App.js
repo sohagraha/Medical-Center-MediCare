@@ -34,16 +34,16 @@ function App() {
             <PrivateRoute exact path='/specialist'>
               <Specialist></Specialist>
             </PrivateRoute>
-            <PrivateRoute exact path='/contact'>
+            <Route exact path='/contact'>
               <Contact></Contact>
-            </PrivateRoute>
+            </Route>
             <Route exact path='/login'>
               <Login></Login>
             </Route>
             <PrivateRoute path='/details/:serviceId'>
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
-            <Route exact path='*'>
+            <Route path='*'>
               <NotFound></NotFound>
             </Route>
           </Switch>

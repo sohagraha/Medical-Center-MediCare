@@ -6,6 +6,7 @@ import './Service.css'
 const Service = (props) => {
     const { name, img, id, desc } = props.mainservice;
     return (
+        // single service 
         <Col>
             <Card className="card service p-2">
                 <Card.Img variant="top" src={img} className='w-100 mainCard images p-1' />

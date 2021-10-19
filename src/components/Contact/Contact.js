@@ -4,6 +4,7 @@ import './Contact.css'
 
 const Contact = () => {
     return (
+        // Contact Us Form 
         <div className="pb-2 containers ">
             <div className="pt-4 row">
                 <div className="col-12 col-md-6 mx-auto pt-3 pb-4 mt-3">
@@ -38,6 +39,7 @@ const Contact = () => {
                                 </div>
                                 <button type="button" className="btn btn-primary ps-5 pe-5 ">Send</button>
                                 <br />
+                                {/* Social Icon  */}
                                 <div className="contacts g-5 fs-2 text-warning fw-bold">
                                     <i className="fab fa-facebook-f p-3"></i>
                                     <i className="fab fa-twitter p-3"></i>

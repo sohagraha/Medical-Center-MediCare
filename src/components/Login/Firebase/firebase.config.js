@@ -1,3 +1,4 @@
+// Firebase Config File 
 const firebaseConfig = {
     apiKey: "AIzaSyACJO_vBxaJavP5SdqAOGvda-gcCpx8pws",
     authDomain: "smart-healthcare-ltd.firebaseapp.com",

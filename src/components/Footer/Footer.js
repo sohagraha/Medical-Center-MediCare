@@ -3,10 +3,12 @@ import { FormControl, InputGroup } from 'react-bootstrap';
 
 const Footer = () => {
     return (
+        // Footer 
         <>
             <div className='p-2 bg-dark text-white'>
                 <div className="container mb-3">
                     <div className="row">
+                        {/* Subscribe form using mail  */}
                         <div className="col-12 col-md-4 my-auto">
                             Subscribe
                             <div className="d-flex">
@@ -25,6 +27,7 @@ const Footer = () => {
                         <div className="col-12 col-md-4">
 
                         </div>
+                        {/* Address Field  */}
                         <div className="col-12 col-md-4">
                             <div className="text-start">
                                 <div className="g-5">
@@ -40,6 +43,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                {/* Copyright  */}
                 <h6><i className="fas fa-copyright text-warning"></i> MEDI CARE . All right reserved.</h6>
             </div>
         </>

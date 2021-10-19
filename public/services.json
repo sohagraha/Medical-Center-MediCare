@@ -1,26 +1,44 @@
 [
     {
         "id": 1,
-        "name": "BIRTH CERTIFICATE",
-        "description": "Birth certificate request form should be filled up by the parents (mother/father). Birth certificate will be issued after three days of request and mother/father can collet the birth certificate from medical records department, in case of absence of parents need proper authorization letter.",
-        "img": "http://3.bp.blogspot.com/-v5Ugb1JVf68/VEAQdb6jHQI/AAAAAAAAA4o/snZLX9wOwmA/s1600/birth%2Bcert.png"
+        "name": "24-Hour Emergency Care",
+        "desc": "The Emergency Services Department of Medi Care Hospital is here to serve your emergency needs 24 hours a day, 365 days a year. ",
+        "description": "The Emergency Services Department of Medi Care Hospital is here to serve your emergency needs 24 hours a day, 365 days a year. Our emergency physicians are Board Certified and provide the highest standard of care. The nursing professionals are committed to providing the community with the highest level of emergency care possible. They are trained to identify heart attack patients very quickly to save heart muscle. The staff also provides education for patients and families on medication, stroke, heart attack, and community resources. All of the Emergency Department staff is dedicated to serving your needs with experience, education, and most of all, caring.",
+        "img": "https://www.trinitytwincity.org/upload/images/pages/EmergencyServices2.png"
     },
     {
         "id": 2,
-        "name": "BIRTH CERTIFICATE",
-        "description": "Birth certificate request form should be filled up by the parents (mother/father). Birth certificate will be issued after three days of request and mother/father can collet the birth certificate from medical records department, in case of absence of parents need proper authorization letter.",
-        "img": "http://3.bp.blogspot.com/-v5Ugb1JVf68/VEAQdb6jHQI/AAAAAAAAA4o/snZLX9wOwmA/s1600/birth%2Bcert.png"
+        "name": "Cardiopulmonary/Heart Services",
+        "desc": "For those recovering from heart ailments or who have chronic breathing problems, Medi Care Hospital offers cardiac and pulmonary rehabilitation services. ",
+        "description": "The hospital’s experienced cardiopulmonary staff offers supervised rehab programs to help people with chronic breathing problems such as chronic obstructive pulmonary disease (COPD). The hospital also helps patients recover from heart attacks, heart surgery, and procedures such as stenting and angioplasty. The rehab programming provides education to help patients increase physical fitness, reduce cardiac symptoms and breathing problems, improve health, and reduce the risk of future problems, including heart attack.Our cardiac and pulmonary rehab programs are offered in a group setting tailored to the patient’s needs, and we monitor heart rate and blood pressure during physical activity. Later, patients are able to work up to more intense aerobic activity on a treadmill or exercise bike. We provide patients with the support and training they need to return to work or their normal activities and to manage their heart or breathing condition. ",
+        "img": "https://www.trinitytwincity.org/upload/images/pages/Health_Services/cardiac_rehab_gary2.jpg"
     },
     {
         "id": 3,
-        "name": "BIRTH CERTIFICATE",
-        "description": "Birth certificate request form should be filled up by the parents (mother/father). Birth certificate will be issued after three days of request and mother/father can collet the birth certificate from medical records department, in case of absence of parents need proper authorization letter.",
-        "img": "http://3.bp.blogspot.com/-v5Ugb1JVf68/VEAQdb6jHQI/AAAAAAAAA4o/snZLX9wOwmA/s1600/birth%2Bcert.png"
+        "name": "Diabetes Wellness Services",
+        "desc": "Help is available for those who have diabetes. Medi Care Hospital offers diabetes wellness services for individuals who are newly diagnosed with diabetes",
+        "description": "Help is available for those who have diabetes. Medi Care Hospital offers diabetes wellness services for individuals who are newly diagnosed with diabetes or those who have had diabetes and need an update on controlling diabetes. Support persons such as family and friends are encouraged to attend. Individual and group sessions are made possible in part thanks to a grant from the U.S. Health Resources & Services Administration Office of Rural Health Policy. Help provided during sessions includes the following: 1) Overview of what diabetes is and how it affects the body. 2) Monitoring blood sugar. 3) Healthy eating. 4) Medications. 5) Problem solving. 6) Reducing risks of complications. 7) Healthy coping and managing stress 8) Screening for diabetes risk. 9) Healthy lifestyle changes for those with pre-diabetes.",
+        "img": "https://www.trinitytwincity.org/upload/images/pages/Health_Services/blood_glucose_testing.jpg"
     },
     {
         "id": 4,
-        "name": "BIRTH CERTIFICATE",
-        "description": "Birth certificate request form should be filled up by the parents (mother/father). Birth certificate will be issued after three days of request and mother/father can collet the birth certificate from medical records department, in case of absence of parents need proper authorization letter.",
-        "img": "http://3.bp.blogspot.com/-v5Ugb1JVf68/VEAQdb6jHQI/AAAAAAAAA4o/snZLX9wOwmA/s1600/birth%2Bcert.png"
+        "name": "Imaging Services",
+        "desc": "No matter where your physician’s office is located, you can choose to have your tests done at our hospital’s Imaging Services Department. ",
+        "description": "We will use our digital technology to send your test results back to your physician quickly. Our friendly and experienced technologists are certified and licensed by the State of Ohio to provide only the best in care to our patients. We offer services using state-of-the-art digital equipment. Our Imaging Services Department partners with expert radiologists from Steuben Radiology Associates to read and interpret images. Every Steuben radiologist is board certified and experienced in multiple forms of imaging modalities. The group provides coverage of the hospital’s imaging department 24 hours a day, 365 days a year, and the hospital is able to work with radiologists with different specialties in order to ensure the timely, accurate interpretations necessary to deliver high quality patient care.We have a 16-slice computerized tomography (CT) scanner in our department. It can do an average scan in just 15 minutes. The CT scanner creates images in millimeter slices throughout the body part of the body that your physician wants to scan. The scanner can scan any part of the body from head to toe. We also offer venous as well as angio studies in CT",
+        "img": "https://www.trinitytwincity.org/upload/images/pages/Imaging/Nuclear%20Medicine%20Web.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Digital Mammograms",
+        "desc": "Detecting and diagnosing breast cancer is a team effort. One that involves your doctors or medical providers, the hospital and you. ",
+        "description": "Adults in the Tuscarawas County, Ohio region choose Medi Care Hospital for their breast cancer mammography screenings. Detecting and diagnosing breast cancer is a team effort. One that involves your doctors or medical providers, the hospital and you. Cancer survival rates are steadily increasing due to more effective treatment procedures and most importantly, early detection. Medi Care Hospital offers the advanced mammography screening and diagnostic mammograms. We are able to detect cancer as small as a grain of salt – a huge improvement over the pea-sized lump that is often found during self-exams. Click here for more information about why mammograms are recommended. Breast cancer can and does occur in both women and men. If you’re 40 or older (or at a younger age if you have a family history of breast cancer), it’s important to get a screening mammogram every year. The process takes less than 15 minutes and those few precious moments could save your life.If you have felt a lump during a self-exam or notice any strange changes in the appearance of your breasts, talk to your doctor or medical provider about scheduling a mammogram as soon as possible and let him or her know that you want to choose the mammography services here at Medi Care Hospital. A physician or medical provider referral is needed to receive a mammogram. To schedule your appointment, call (740) 922-7405. We can usually schedule your appointment within a week.",
+        "img": "https://www.trinitytwincity.org/upload/images/header_images/new_mammo_celuch_sept2012.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Surgery",
+        "desc": "Surgeries offered include general surgeries including Colonoscopy screening tests, Gall Bladder removal, Appendectomies, Bowel surgeries, Foot and Ankle surgeries.",
+        "description": "Performing surgery is a serious business requiring the utmost in caring and surgical skills. Still, the experienced surgical team at Trinity Hospital Twin City knows it takes more than medical skills to provide high quality care for patients. It takes a willingness to care for the whole patient to make him or her feel at ease from the moment surgical preparations begin until the patient leaves the recovery room, ready to begin the journey to full health.That special kind of caring meant the world to Cherie, 45, of Dover, Ohio. The busy mother of three and grandmother of one and Office Manager of Swiss Village Insurance recently underwent a second mastectomy as a preventative measure to keep her metastatic adeno carcinoma (liver, lung and bone cancer) from coming back. She was understandably nervous when she arrived for surgery. “I was so scared,” she shared. “The surgical nurses sang to me before the surgery. It was awesome. They just gave me peace and were so comforting. In recovery, they sang to me again, and they all hugged me. Cherie was pleased with her entire surgical experience at Medi Care Hospital. She’s used other hospitals in the region, but felt they didn’t give her the level of care she received at Trinity Hospital Twin City. “It was better than good care,” the five year cancer survivor said. “It was the best experience for what I had done. Now, I will go nowhere but Trinity Hospital Twin City.s",
+        "img": "https://www.trinitytwincity.org/upload/images/pages/surgery.png"
     }
 ]

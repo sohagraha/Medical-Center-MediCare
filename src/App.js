@@ -9,6 +9,10 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import AuthProvider from './contexts/AuthProvider';
+import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
+import PrivateRoute from './components/Login/PrivateRoute.js/PrivateRoute';
+import Specialist from './components/Specialist/Specialist';
 
 
 function App() {
@@ -21,15 +25,24 @@ function App() {
             <Route exact path='/home'>
               <Home></Home>
             </Route>
+            <PrivateRoute exact path='/services'>
+              <Services></Services>
+            </PrivateRoute>
+            <PrivateRoute exact path='/specialist'>
+              <Specialist></Specialist>
+            </PrivateRoute>
+            <Route exact path='/contact'>
+              <Contact></Contact>
+            </Route>
             <Route exact path='/login'>
               <Login></Login>
             </Route>
             <Route exact path='/register'>
               <Register></Register>
             </Route>
-            <Route path='/details/:serviceId'>
+            <PrivateRoute path='/details/:serviceId'>
               <ServiceDetails></ServiceDetails>
-            </Route>
+            </PrivateRoute>
           </Switch>
           <Footer></Footer>
         </BrowserRouter>

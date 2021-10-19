@@ -6,12 +6,12 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home'
 import Login from './components/Login/Login';
-import Register from './components/Register/Register';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import AuthProvider from './contexts/AuthProvider';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import PrivateRoute from './components/Login/PrivateRoute.js/PrivateRoute';
+import NotFound from './components/NotFound/NotFound';
 import Specialist from './components/Specialist/Specialist';
 
 
@@ -23,6 +23,9 @@ function App() {
           <Navbar></Navbar>
           <Switch>
             <Route exact path='/home'>
+              <Home></Home>
+            </Route>
+            <Route exact path='/'>
               <Home></Home>
             </Route>
             <PrivateRoute exact path='/services'>
@@ -37,12 +40,12 @@ function App() {
             <Route exact path='/login'>
               <Login></Login>
             </Route>
-            <Route exact path='/register'>
-              <Register></Register>
-            </Route>
             <PrivateRoute path='/details/:serviceId'>
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
+            <Route exact path='*'>
+              <NotFound></NotFound>
+            </Route>
           </Switch>
           <Footer></Footer>
         </BrowserRouter>

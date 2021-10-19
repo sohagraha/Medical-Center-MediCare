@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { Col, Form, FormControl, InputGroup, Row, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Col, Form, Row, Button } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
-import useFirebase from '../../hooks/useFirebase';
+
 
 const Login = () => {
     const { user, signInUsingGoogle, logOut, signInWithPassword, logInWithPassword, error } = useAuth();

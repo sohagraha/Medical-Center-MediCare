@@ -10,7 +10,7 @@ const Specialist = () => {
                         <h1 className="p-3">A heritage in care. A reputation in excellence</h1>
                         <i><small>" A patient is the most important person in our hospital. He is not an interruption to our work. He is the purpose of it. He is not an outsider in our hospital, he is part of it. We are not doing him a favor by serving him, he is doing us a favor by giving us an opportunity to do so. "</small></i>
                     </div>
-                    {/* Team Member Details - Our Team  */}
+                    {/* Specialist Doctor Details - Our Specialist  */}
                     <div className="pt-3 pb-4">
                         <div className="container">
                             <div className="row mt-4">

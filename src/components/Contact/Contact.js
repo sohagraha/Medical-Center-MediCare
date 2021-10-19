@@ -12,7 +12,7 @@ const Contact = () => {
                         <div className="row g-0 p-3">
                             <div className="col-md-6 ps-2 pe-3 pad-right">
                                 <div className="mb-3 mt-3">
-                                    {/* Name Field - Customer give their name here */}
+                                    {/* Name Field - patient give their name here */}
                                     <InputGroup className="mb-3">
                                         <FormControl
                                             aria-label="Default"
@@ -21,7 +21,7 @@ const Contact = () => {
                                         />
                                     </InputGroup>
                                 </div>
-                                {/* Email Field - Customer give their mail here */}
+                                {/* Email Field - patient give their mail here */}
                                 <div className="mb-3">
                                     <InputGroup className="mb-3">
                                         <FormControl
@@ -31,7 +31,7 @@ const Contact = () => {
                                         />
                                     </InputGroup>
                                 </div>
-                                {/* Message Field - Customer write their Message here */}
+                                {/* Message Field - patient write their Message here */}
                                 <div className="mb-2">
                                     <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Message"
                                         rows="6"></textarea>

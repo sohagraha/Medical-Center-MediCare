@@ -15,7 +15,7 @@
 /* card style when no hover */
 .card{
     border-radius: 7px;
-    border: 3px solid gray;
+    border: 1px solid gray;
 }
 /* card style when hover */
 .card:hover{

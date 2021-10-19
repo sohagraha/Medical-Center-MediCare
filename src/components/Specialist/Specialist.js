@@ -20,7 +20,7 @@ const Specialist = () => {
                                     </h1>
                                 </div>
                             </div>
-                            {/* Team Members Container  */}
+                            {/* Specialist Doctor Details Container  */}
                             <div className="row">
                                 <div className="col-md-4 text-center">
                                     <img className="qualities-img  p-2 rounded-circle" src="https://as2.ftcdn.net/v2/jpg/01/72/38/25/500_F_172382536_GLOspuArqWqoq66wVRo2MMzYIocUvnY2.jpg" alt="" />
